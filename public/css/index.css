@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Roboto:wght@100&display=swap');
+
+:root {
+    /* Fonts */
+    --font-roboto : 'Roboto', sans-serif;
+    --font-josefin : 'Josefin Sans', sans-serif;
+} 
+
+/* MOBILE */
+
+li {
+    list-style-type: none
+}
+
+.awooBody {
+    background-image: url('../img/AwooBodyh.jpg');
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.awooMain {
+    width: 100%;
+}
+
+.headerAwoo {
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    position: relative;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(145,145,145,1) 50%, rgba(47,51,52,1) 100%);
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 100px;
+}
+
+.imgAwoo {
+    width: 100%;
+    height: 55px;
+}
+
+.imgAwoo2 {
+    width: 60%;
+    height: 55px;
+    margin-left: 15px;
+    display: block;
+    cursor: pointer;
+}
+
+.imgAwoo3 {
+    width: 60%;
+    height: 55px;
+    margin-left: 15px;
+    display: none;
+    cursor: pointer;
+}
+
+.awooProject {
+    width: 150%;
+    position: relative;
+}
+
+.categories {
+    width: 50%;
+    position: relative;
+}
+
+.awooSec {
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+    position: absolute;
+    font-family: var(--font-roboto);
+    color: gray;
+}
+
+.awooSec2 {
+    margin: 30px;
+}
+
+.awooFlute {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.awooText {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.awooUl {
+    gap: 1px;
+}
+
+.awooLi {
+    margin-bottom: 8px;
+}
+
+.awooP {
+    margin-bottom: 20px;
+}
+
+/* TABLET */
+
+@media screen and (min-width: 481px) {
+
+    .headerAwoo {
+        height: 5rem;
+    }
+
+    .imgAwoo {
+        height: 70px;
+    }    
+
+    .awooSec2 {
+        margin: 40px;
+    }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 769px) {
+
+    .headerAwoo {
+        height: 7rem;
+    }
+
+    .imgAwoo {
+        height: 100px;
+    }
+    
+    .imgAwoo2 {
+        height: 90px;
+    }
+
+    .imgAwoo3 {
+        height: 80px;
+    }
+
+    .awooSec {
+        margin: 0px 0px 0px 55px;
+        width: 85%;
+    }
+
+    .awooSec2 {
+        margin: 40px;
+    }
+
+    .awooGif {
+        width: 60%;
+    }
+
+    .awooText {
+        font-size: 18px;
+    }
+
+    .awooLi {
+        font-size: 19px;
+    }
+
+    .awooP {
+        font-size: 18px
+    }
+}
+
+@media screen and (min-width: 1280px) {
+
+    .headerAwoo {
+        height: 9rem;
+    }
+
+    .imgAwoo {
+        height: 150px;
+    }
+    
+    .imgAwoo2 {
+        height: 120px;
+    }
+
+    .imgAwoo3 {
+        height: 110px;
+    }
+
+    .awooSec {
+        margin: 0px 0px 0px 90px;
+        width: 85%;
+    }
+
+    .awooSec2 {
+        margin: 60px;
+    }
+
+    .awooGif {
+        width: 60%;
+    }
+
+    .awooText {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .awooLi {
+        font-size: 19px;
+    }
+
+    .awooP {
+        font-size: 18px
+    }
+}
+
