@@ -10,7 +10,6 @@ let $monikaText = document.querySelector(".monikaText");
 let $monikaText2 = document.querySelector(".monikaText2");
 let $aaa = document.querySelector(".aaa");
 var timeoutID
-var cargar = false
 
 $imgAwoo2.addEventListener("click", function(e){
     e.preventDefault
@@ -66,7 +65,6 @@ $imgAwoo4.addEventListener("click", function(e){
                   timeoutID = window.setTimeout(re, 3000)
 
                   function re() {
-                    cargar = true
                     location.reload()
 
                   }
