@@ -12,10 +12,33 @@
     --font-josefin : 'Josefin Sans', sans-serif;
 } 
 
+.monikaText {
+  font-family: 'Ephesis', cursive;
+  font-size: 106px;
+  position: absolute;
+  z-index: 3;
+  margin: 290px 0px 0px 55px;
+  display: none;
+  color: white;
+  text-shadow: 5px 5px black;
+}
+
+
+.monikaText2 {
+  font-family: 'Ephesis', cursive;
+  font-size: 70px;
+  position: absolute;
+  z-index: 3;
+  margin: 290px 0px 0px 0px;
+  display: none;
+  color: white;
+  text-shadow: 5px 5px black;
+}
+
 /* MOBILE */
 
 li {
-    list-style-type: none
+    list-style-type: none;
 }
 
 .awooBody {
@@ -23,6 +46,41 @@ li {
     background-size: cover;
     z-index: 1;
     position: relative;
+}
+
+.glitch {
+    background-image: url('../img/glitch.gif');
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+
+.monikaContainer {
+    position: relative;
+}
+
+.monika {
+    display: none;
+    z-index: 2;
+    width: 100vh;
+    position: absolute;
+    margin: 0px 0px 0px -140px;
+}
+
+.monika2 {
+  display: none;
+  z-index: 2;
+  width: 100vh;
+  position: absolute;
+  margin: 0px 0px 0px -140px;
+}
+
+.monika3 {
+  display: none;
+  z-index: 2;
+  width: 100vh;
+  position: absolute;
+  margin: 0px 0px 0px -140px;
 }
 
 .awooMain {
@@ -48,7 +106,7 @@ li {
 }
 
 .imgAwoo2 {
-    width: 60%;
+/*     width: 60%; */
     height: 55px;
     margin-left: 15px;
     display: block;
@@ -56,10 +114,18 @@ li {
 }
 
 .imgAwoo3 {
-    width: 60%;
+/*     width: 60%; */
     height: 55px;
     margin-left: 15px;
     display: none;
+    cursor: pointer;
+}
+
+.imgAwoo4 {
+/*     width: 60%; */
+    height: 55px;
+    margin-left: 10px;
+    display: block;
     cursor: pointer;
 }
 
@@ -69,7 +135,7 @@ li {
 }
 
 .categories {
-    width: 50%;
+    width: 25%;
     position: relative;
 }
 
@@ -130,6 +196,27 @@ li {
     .awooSec2 {
         margin: 40px;
     }
+
+    .monika {
+      margin: 0px 0px 0px -60px;
+  }
+
+    .monika2 {
+      margin: 0px 0px 0px -60px;
+  }
+
+    .monika3 {
+      margin: 0px 0px 0px -60px;
+  }
+
+  .monikaText {
+    margin: 290px 0px 0px 125px;
+  }
+
+  .monikaText2 {
+    margin: 290px 0px 0px 125px;
+  }
+
 }
 
 /* DESKTOP */
@@ -149,7 +236,11 @@ li {
     }
 
     .imgAwoo3 {
-        height: 80px;
+        height: 90px;
+    }
+
+    .imgAwoo4 {
+        height: 90px;
     }
 
     .awooSec {
@@ -176,6 +267,26 @@ li {
     .awooP {
         font-size: 18px
     }
+
+    .monika {
+      margin: 0px 0px 0px 81px;
+  }
+
+    .monika2 {
+      margin: 0px 0px 0px 81px;
+  }
+
+    .monika3 {
+      margin: 0px 0px 0px 81px;
+  }
+
+  .monikaText {
+    margin: 290px 0px 0px 283px;
+  }
+
+  .monikaText2 {
+    margin: 290px 0px 0px 283px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -193,6 +304,10 @@ li {
     }
 
     .imgAwoo3 {
+        height: 110px;
+    }
+
+    .imgAwoo4 {
         height: 110px;
     }
 
