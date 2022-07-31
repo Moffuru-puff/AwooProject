@@ -12,6 +12,35 @@
     --font-josefin : 'Josefin Sans', sans-serif;
 } 
 
+.monikaSpin {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  width: 100%;
+}
+
+
+.monikaLogo {
+  width: 100%;
+  height: 55px;
+  display: none;
+}
+
+.monikaNoise {
+  height: 55px;
+  margin-left: 15px;
+  display: none;
+}
+
+.monikaNoise2 {
+  height: 55px;
+  margin-left: 15px;
+  display: none;
+}
+
 .monikaText {
   font-family: 'Ephesis', cursive;
   font-size: 106px;
@@ -41,6 +70,13 @@ li {
     list-style-type: none;
 }
 
+.monikaBack {
+  background-image: url('../img/minimonika.gif');
+  background-size: contain;
+  z-index: 2;
+  position: relative;
+}
+
 .awooBody {
     background-image: url('../img/AwooBodyh.jpg');
     background-size: cover;
@@ -54,6 +90,8 @@ li {
     z-index: 1;
     position: relative;
 }
+
+
 
 .monikaContainer {
     position: relative;
@@ -169,6 +207,24 @@ li {
     align-items: center;
 }
 
+.mon-ikaText {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.mon-ikaText2 {
+  display: none;
+  width: 100%;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
 .awooUl {
     gap: 1px;
 }
@@ -191,7 +247,11 @@ li {
 
     .imgAwoo {
         height: 70px;
-    }    
+    }
+    
+    .monikaLogo {
+      height: 70px
+    }
 
     .awooSec2 {
         margin: 40px;
@@ -230,6 +290,10 @@ li {
     .imgAwoo {
         height: 100px;
     }
+
+    .monikaLogo {
+      height: 100px;
+    }
     
     .imgAwoo2 {
         height: 90px;
@@ -256,8 +320,26 @@ li {
         width: 60%;
     }
 
+    .monikaSpin {
+        width: 60%;
+    }
+
+    .monikaNoise {
+        height: 100%;
+        width: 100%;
+    }
+
+    .monikaNoise2 {
+      height: 100%;
+      width: 100%;
+  }
+
     .awooText {
         font-size: 18px;
+    }
+
+    .mon-ikaText {
+      font-size: 18px;
     }
 
     .awooLi {
@@ -298,6 +380,10 @@ li {
     .imgAwoo {
         height: 150px;
     }
+
+    .monikaLogo {
+      height: 150px;
+    }
     
     .imgAwoo2 {
         height: 120px;
@@ -327,6 +413,11 @@ li {
     .awooText {
         width: 100%;
         font-size: 18px;
+    }
+
+    .mon-ikaText {
+      width: 100%;
+      font-size: 18px
     }
 
     .awooLi {
